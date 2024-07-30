@@ -6,7 +6,7 @@ background-color: #fff;
 ul, ol {list-style-type: none;}
 a {text-decoration: none;}
 .logo {
-    font-family: "Raleway" sans-serif; 
+    font-family: 'Raleway', sans-serif; 
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -45,9 +45,6 @@ a {text-decoration: none;}
 }
 .main-text {
     background-color: #2e2f42;
-    box-sizing: border-box;
-    width: 1440px;
-        height: 600px;
 }
 .btn-order {
     font-family: 'Roboto', sans-serif;
@@ -57,7 +54,6 @@ a {text-decoration: none;}
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
-    box-shadow: none;
 border-style: none;
 box-sizing: border-box;
 cursor: pointer;
@@ -91,7 +87,10 @@ font-weight: 400;
         text-transform: capitalize;
         color: #2e2f42
 }
-.team-name {
+.team-list {
+    background-color:#FFFFFF;
+}
+  .team-member.team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -100,7 +99,7 @@ font-weight: 400;
     color: #2e2f42;
 background-color: #FFFFFF;}
     
-.team-desc {
+.team-member .team-desc {
 font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -112,13 +111,14 @@ font-weight: 400;
 .img-porfolio-service {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.img-name {
+. item-portfolio .img-name {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
