@@ -76,8 +76,9 @@ font-weight: 400;
     color: #434455;
 }
 .team {
-    background-color: : #FFFFFF;
+    background-color:#f4f4fd;
 }
+.team-list {background-color:#FFFFFF;}
 .team-header {
     font-weight: 700;
         font-size: 36px;
