@@ -89,7 +89,9 @@ font-weight: 400;
         text-align: center;
         color: #2e2f42
 }
-
+.ream-list {
+    background-color: #FFFFFF;
+}
 
   .team-name {
     font-weight: 500;
