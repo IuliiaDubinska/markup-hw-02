@@ -75,10 +75,14 @@ font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.team .team-list{
+.team {
     background-color:#f4f4fd;
 }
-
+ .team .team-list {
+    background-color:#FFFFFF;}
+     {
+        background-color: #FFFFFF;
+    }
 .team-header {
     font-weight: 700;
         font-size: 36px;
